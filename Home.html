@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jefino's Portfolio</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+		<a href="#home" class="active">Home</a>
+		<a href="#about">About</a>
+		<a href="#projects">Projects</a>
+		<a href="#contact">Contact</a>
+		<div class="image"><STRONG>Jefino </STRONG><img id="prof" src="https://avatars.githubusercontent.com/u/89455522?s=96&v=4" alt="" /></div>
+	</nav>
+</body>
+<body id="bg">
+	<section id="home">
+		<div class="text1">
+		<h1>Welcome</h1>
+		</div>
+	</section>
+	<div id="container">
+	<section>
+	<div id="about">
+  <fieldset id="about-bg">
+    <legend><h2>About Me</h2></legend>
+    <section>
+      <div id="left" style="float: left; width: 50%;">
+        <h2>I am Jefino</h2>
+        <ul>
+          <li><p>I am a student at Chennai Institute of Technology.</p></li>
+          <li><p>I am currently a 1st year student.</p></li>
+          <li><p>I am a passionate programmer and a tech enthusiast.</p></li>
+          <li><p>I am a self-taught programmer.</p></li>
+        </ul>
+        <a href="https://jefino9488.github.io/resume/"><button class="button button1">Resume</button></a>
+      </div>
+	</section>
+  </fieldset>
+		<div id="skill">
+			<fieldset><legend><h2>More Info</h2></legend>
+			<ul style="font-family: monospace;">
+				<li>Name: Jefino M Jacob</li>
+                <li>Address: 61/2, 2nd Street, Mannargudi, 1st Floor, Home city, Tamil Nadu, India</li>
+                <li>Phone: 82209-34327</li>
+			</ul>
+			</fieldset>
+		</div>
+		<div id="connect">
+			<fieldset><legend><h2>Get in touch</h2></legend>
+				<ul style="font-family: monospace;">
+                <li>Phone: 82209-34327</li>
+                <li>Email:<a href="mailto:jefinojacob9488@gmail.com">GMail</a></li>
+                <li>LinkedIn:<a href="https://www.linkedin.com/in/jefino-jacob-69886423b/">Jefino</a></li>
+                <li>Github:<a href="https://github.com/Jefino9488">Jefino9488</a></li><br>
+				</ul>
+			</fieldset>
+		</div>
+	</div>
+	<div id="right-bg">
+		<img id="rightbg" src="res/resume.png" width="600" height="530" alt="">
+	</div>
+	</section>
+	<section id="projects">
+		<br>
+		<fieldset><legend><h2>Projects</h2></legend>
+	<section>
+		<div id="project">
+			<ul>
+			<li><h3>Personal Assistant</h3></li>
+			<p><b>Ai Chatbot - Zapy </b></p>
+				<p style="font-family: monospace;"><b>Ai powered chatbot uses predefined functions and keyword to do some special activities.</b></p>
+				<li><h3>Custom Software</h3></li>
+				<p><b>Remoded UI </b></p>
+				<p style="font-family: monospace;"><b><a href="https://remodedui.github.io/index.html"><b>Remoded UI</b></a> is a modified stock MiUi 13/14 rom which brings tones of customisation options along-with stability in mind.</b></p>
+			</ul>
+		</div>
+	</section>
+	</fieldset>
+		<div class="contain">
+  <div class="zapy">
+    <fieldset>
+      <legend><h2>Ai Chatbot - Zapy</h2></legend>
+      <img src="res/bot1.png" alt="">
+      <p><b>Features</b></p>
+      <ul>
+        <li><p>It can play music.</p></li>
+        <li><p>It can tell you the time.</p></li>
+        <li><p>It can tell you the date.</p></li>
+        <li><p>It can tell you the weather.</p></li>
+        <li><p>It can tell you the news.</p></li>
+      </ul>
+    </fieldset>
+  </div>
+  <div class="remoded">
+    <fieldset>
+      <legend><h2>Remoded UI</h2></legend>
+      <img src="res/remodedui.png" alt="">
+      <p><b>Features</b></p>
+      <ul>
+        <li><p>It has a customised UI.</p></li>
+        <li><p>It has a customised settings.</p></li>
+        <li><p>It has a customised lockscreen.</p></li>
+        <li><p>It has a customised statusbar.</p></li>
+        <li><p>It has a customised notification panel.</p></li>
+      </ul>
+    </fieldset>
+  </div>
+</div>
+
+	</section>
+	<div>
+		<br>
+		<fieldset><legend><h2>Contact</h2></legend>
+	<section id="contact">
+		<div>
+			<h3>Get in touch</h3>
+			<p>Feel free to contact me</p>
+			<p>My email:
+			</p>
+		</div>
+	</section>
+	</fieldset>
+	</div>
+	<br>
+	<div>
+	<section id="footer">
+		<p>Created by Jefino</p>
+		<p>&copy; 2023</p>
+	</section>
+	</div>
+	<script>
+		// Smooth scrolling
+		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+				document.querySelector(this.getAttribute('href')).scrollIntoView({
+					behavior: 'smooth'
+				});
+				// Set the active link
+				document.querySelectorAll('nav a').forEach(link => {
+					link.classList.remove('active');
+				});
+				this.classList.add('active');
+			});
+		});
+	</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,208 @@
+body {
+			font-family: Arial, sans-serif;
+			position: relative;
+			margin: 0;
+		}
+		#home {
+			background-image: url("res/bg.png");
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			color: #fff;
+			text-align: center;
+			padding-top: 0px;
+	        height: 90vh;
+		}
+nav {
+  display: flex;
+  justify-content: flex-start;
+  text-align: right;
+  align-items: right;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 10px 20px;
+  backdrop-filter: blur(5px); /* Add a 5px blur to the background */
+  -webkit-backdrop-filter: blur(5px); /* Add vendor prefixes for browser support */
+  background-color: rgba(0, 0, 0, 0.6); /* Set a semi-transparent dark background color */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+nav a.active {
+  background-color: #fff;
+  color: #333;
+}
+
+#footer {
+background-color: black;
+color: white;
+text-align: center;
+}
+#projects {
+margin-top: 20px;
+color: white;
+}
+#project {
+color: white;
+width: 100%;
+margin-left: 20px;
+}
+#pro {
+background-color: black;
+color: white;
+margin-top: 0px;
+}
+#contact {
+background-color: black;
+color: white;
+width: 100%;
+}
+#about {
+color: white;
+float: left;
+width: 50%;
+}
+left {
+float: left;
+}
+right {
+float: right;
+
+}
+iframe {
+float: right;
+width: 50%;
+
+}
+#bg {
+background-color: black;
+color: white;
+}
+fieldset {
+border: 1px solid #ccc;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 10px;
+}
+#prof {
+margin-top: 10px;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+}
+.image {
+  position: right;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+  font-stretch: expanded;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.text1 {
+  font-family: ;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.text1 h1 {
+  text-align: bottom;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#about-bg {
+color: white;
+background-image: url("res/back.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px
+}
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+#zapy {
+float: left;
+width: 50%;
+}
+#remoded {
+float: right;
+width: 50%;
+}
+#skill {
+float: left;
+width: 50%;
+}
+#connect {
+float: right;
+width: 50%;
+}
+#right-bg {
+margin-top: 50px;
+float: right:
+width: 50%;
+height: 100%;
+}
+#rightbg {
+margin-top: 35px;
+margin-bottom: 75px;
+border-radius: 40px;
+filter: blur(1.5px);
+}
+.contain {
+  display: flex;
+  width: 100%;
+}
+
+.zapy, .remoded {
+  width: 50%;
+}
+
+.zapy img, .remoded img {
+  float: right;
+  margin-left: 10px;
+  max-width: 40%;
+  height: auto;
+}
