@@ -49,8 +49,9 @@
             <a href="https://jefino9488.github.io/resume/"><button class="button">Resume</button></a>
           </div>
           <div id="video">
-            <video autoplay muted loop id="myVideo">
-              <source src="video.mp4" type="video.mp4">
+            <video id="myVideo" autoplay loop muted>
+              <source src="video.mp4" type="video/mp4">
+              Your browser does not support the video tag
             </video>
           </div>
         </section>
@@ -94,6 +95,18 @@
           style="height: 20px;"></a>
     </div>
   </footer>
+<script>
+      // Get a reference to the video element
+      var video = document.getElementById("myVideo");
+
+      // Play the video
+      function playVideo() {
+        video.play();
+      }
+
+      // Call the playVideo function to play the video
+      playVideo();
+    </script>
 </body>
 
 </html>
