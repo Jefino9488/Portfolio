@@ -14,7 +14,7 @@ function stickyNav() {
 var app = document.getElementById('app');
 
 var typewriter = new Typewriter(app, {
-    strings: ['Hello World!', 'Welcome to my Portfolio!'],
+    strings: ['Hello World!', 'Welcome to this world!'],
     autoStart: true,
     loop: true,
 });
