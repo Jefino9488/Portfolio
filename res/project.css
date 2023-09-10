@@ -14,7 +14,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 999;background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
 }
 
@@ -59,24 +60,23 @@ body {
 }
 
 #projects {
-  margin-top: 60px;
   color: white;
-  padding-top: px;
 }
 
 #project {
-color: white;
-display: flex;
-height: 100%;
+  color: white;
+  margin: 0px;
+  display: flex;
+  height: 100%;
 }
 
 #info {
-color: black;
-margin-top: 100px;
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
+  color: black;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 ::-webkit-scrollbar {
@@ -102,47 +102,55 @@ align-items: center;
 }
 
 fieldset {
-background-color: rgba(0, 0, 0, 0.6);
-border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
 }
+
 #zapy {
-float: left;
-width: 50%;
+  float: left;
+  width: 50%;
 }
+
 #remoded {
-float: right;
-width: 50%;
+  float: right;
+  width: 50%;
 }
+
 #skill {
-float: left;
-width: 50%;
+  float: left;
+  width: 50%;
 }
+
 #connect {
-float: right;
-width: 50%;
+  float: right;
+  width: 50%;
 }
+
 #right-bg {
-margin-top: 50px;
-float: right:
-width: 50%;
-height: 100%;
+  margin-top: 50px;
+  float: right; width: 50%;
+  height: 100%;
 }
+
 #rightbg {
-margin-top: 35px;
-margin-bottom: 75px;
-border-radius: 40px;
-filter: blur(1.5px);
+  margin-top: 35px;
+  margin-bottom: 75px;
+  border-radius: 40px;
+  filter: blur(2px);
 }
+
 .contain {
   display: flex;
   width: 100%;
 }
 
-.zapy, .remoded {
+.zapy,
+.remoded {
   width: 50%;
 }
 
-.zapy img, .remoded img {
+.zapy img,
+.remoded img {
   float: right;
   margin-left: 10px;
   max-width: 40%;
@@ -152,10 +160,10 @@ filter: blur(1.5px);
 
 fieldset {
   border-radius: 20px;
-   border-color: #F38D68;
-   border-style: solid;
-   border-width: 2px;
-   padding: 30px;
+  border-color: #F38D68;
+  border-style: solid;
+  border-width: 2px;
+  padding: 30px;
 }
 
 footer {
@@ -208,3 +216,63 @@ button {
 button:hover {
   background-color: #FF6347;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
+  font-size: 60px;
+}
+
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+
+}
+
+@keyframes waviy {
+
+  0%,
+  40%,
+  100% {
+    transform: translateY(0)
+  }
+
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+
+.box {
+  float: left;
+  width: 725px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.fill , .zapy, .remoded, .skill, .connect {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.stats {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
